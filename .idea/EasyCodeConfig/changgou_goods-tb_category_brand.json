@@ -1,0 +1,26 @@
+{
+  "name" : "TbCategoryBrand",
+  "preName" : null,
+  "comment" : null,
+  "templateGroupName" : null,
+  "fullColumn" : [ {
+    "name" : "categoryId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "brandId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.changgou.goods.pojo",
+  "savePath" : "./changgou-parent/changgou-service-api/changgou_service_goods_api/src/main/java/com/changgou/goods/pojo",
+  "saveModelName" : "changgou_service_goods_api"
+}

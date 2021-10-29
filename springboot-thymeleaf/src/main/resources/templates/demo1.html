@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:text="${message}"></div>
+<table>
+    <tr th:each="use:${user}">
+        <td th:text="${use.id}"></td>
+        <td th:text="${use.name}"></td>
+        <td th:text="${use.address}"></td>
+    </tr>
+</table>
+<form method="get" th:action="@{/tempates/demo2}">
+    <button>点击</button>
+</form>
+<div id="a" th:include="foot::copy"></div>
+</body>
+</html>
